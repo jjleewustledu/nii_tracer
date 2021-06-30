@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PAN/.idea/PAN.iml" filepath="$PROJECT_DIR$/../PAN/.idea/PAN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../graph_nets/.idea/graph_nets.iml" filepath="$PROJECT_DIR$/../graph_nets/.idea/graph_nets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nii_tracer.iml" filepath="$PROJECT_DIR$/.idea/nii_tracer.iml" />
+    </modules>
+  </component>
+</project>
