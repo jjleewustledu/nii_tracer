@@ -17,30 +17,6 @@ biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261).
 
 ![Graph network](https://github.com/deepmind/graph_nets/raw/master/images/graph-network.png)
 
-## Installation
-
-The Tracer library can be installed from pip.
-
-This installation is compatible with Linux/Mac OS X, and Python 3.8+.
-
-The library will work with both the CPU and GPU version of TensorFlow, but to
-allow for that it does not list Tensorflow as a requirement, so you need to
-install Tensorflow separately if you haven't already done so.
-
-To install the Tracer library and use it with TensorFlow 2 and Sonnet 2, run:
-
-(CPU)
-```shell
-$ pip install nii_tracer "tensorflow>=2.1.0-rc1" "dm-sonnet>=2.0.0b0" tensorflow_probability
-```
-
-(GPU)
-```shell
-$ pip install nii_tracer "tensorflow_gpu>=2.1.0-rc1" "dm-sonnet>=2.0.0b0" tensorflow_probability
-```
-
-The latest version of the library requires TensorFlow >=2.1.0-rc1. 
-
 ## Usage example
 
 The following code constructs a simple Tracer module and connects it to data.
